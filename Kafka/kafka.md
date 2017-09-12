@@ -25,3 +25,7 @@
 
 > bin/kafka-console-consumer.sh --zookeeper localhost:2181 —topic topic-name
 --from-beginning
+
+* Delete kafka topics
+
+> bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic topic_name

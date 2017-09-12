@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript</title>
+        <script type="text/javascript">
+            function sayHello(who) {
+                document.write("Hello "+ who);
+            }
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            document.write("Hello, World!"); //This is a comment
+            var words = "This is";
+            var morewords = " a sentence";
+            var sentence = words + morewords;
+            document.write("<br/>"+sentence);
+
+            var alpha = "ABCDEFG";
+            var length = alpha.lenth; // 7
+            var result = alpha.substring(2,6); //  CDEF
+
+            var a = new Array(7);
+            a[0] = "cat";
+            a[1] = "dog";
+            a[2] = 95;
+            a[3] = true;
+
+            var a2 = new Array("cat", "dog", 95, true);
+            var a3 = ["cat", "dog", 95, true];
+
+            sayHello("Avi");
+        </script>
+    </body>
+</html>
