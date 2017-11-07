@@ -9,5 +9,3 @@
       bob = "bob"  (There is no data type for bob)
 6. Auto garbage collection
 7. Can be easily integrated with other languages like C, C++, Java
-
-Environment setup:
