@@ -1,4 +1,5 @@
 def makeAnagram(str1, str2):
+    #Create dictionary
     difference = {}
 
     for letter in str1:
